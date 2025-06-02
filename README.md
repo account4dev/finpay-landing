@@ -23,7 +23,7 @@ This is a responsive HTML/CSS landing page for **FinPay**, a fictional financial
 
 # What This Demonstrates
 ✔️ Ability to convert design to functional HTML  
-✔️ Understanding the principles of BEM methodology and semantics
+✔️ Understanding the principles of BEM methodology and semantics  
 ✔️ Clean, maintainable code structure  
 ✔️ Attention to UI/UX details  
 
