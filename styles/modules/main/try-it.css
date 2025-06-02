@@ -1,0 +1,92 @@
+.try-it {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 45vh;
+  background-color: var(--gray-100);
+}
+
+.try-it-card {
+  position: absolute;
+  bottom: 12vh;
+  display: flex;
+  width: 90%;
+  height: 60vh;
+  background-color: var(--green-200);
+  border-radius: 25px;
+}
+
+.try-it-card__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  height: 60vh;
+  padding: 0 70px;
+}
+
+.try-it-card__label {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--green-100);
+}
+
+.try-it-card__title {
+  margin: 10px 0 15px 0;
+  font-size: 42px;
+  font-family: "Inter", sans-serif;
+  line-height: 1.1;
+  color: var(--white);
+}
+
+.try-it-card__text {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  line-height: 1.2;
+  color: var(--gray-300);
+}
+
+.try-it-card__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 60vh;
+  gap: 0 15px;
+}
+
+.try-it-card__button {
+  width: 30%;
+  height: 10vh;
+  font-size: 18px;
+  color: var(--white);
+  background-color: var(--green-100);
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  transition: 200ms;
+  cursor: pointer;
+}
+
+.try-it-card__button:hover {
+  color: var(--green-200);
+  background-color: var(--white);
+  transition: 200ms;
+}
+
+.try-it-card__button:nth-child(2) {
+  width: 25%;
+  background-color: transparent;
+  border: 1px solid var(--gray-300);
+  border-radius: 20px;
+}
+
+.try-it-card__button:nth-child(2):hover {
+  color: var(--white);
+  background-color: var(--blue-100);
+  border-color: var(--blue-100);
+  transition: 200ms;
+}

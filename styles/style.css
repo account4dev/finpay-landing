@@ -1,0 +1,40 @@
+/* reset */
+@import url("reset.css");
+/* header */
+@import url("modules/header/header.css");
+/* main */
+@import url("modules/main/main.css");
+@import url("modules/main/hero.css");
+@import url("modules/main/features.css");
+@import url("modules/main/why-us.css");
+@import url("modules/main/how-it-works.css");
+@import url("modules/main/mission.css");
+@import url("modules/main/plans.css");
+@import url("modules/main/try-it.css");
+/* footer */
+@import url("modules/footer/footer.css");
+
+:root {
+  --white: #ffffff;
+
+  --gray-100: #f5f9f9;
+  --gray-200: #e9e9e9;
+  --gray-250: #cccccc;
+  --gray-300: #aaaaaa;
+
+  --green-100: #298d9d;
+  --green-200: #023247;
+
+  --blue-100: #0b394f;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: var(--white);
+  overflow-x: hidden;
+}
+
+img {
+  user-select: none;
+}

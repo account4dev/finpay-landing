@@ -1,0 +1,87 @@
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 12vh;
+  padding: 0 5%;
+  background-color: var(--gray-100);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  text-decoration: none;
+  user-select: none;
+}
+
+.logo__image {
+  width: 32px;
+  height: 32px;
+}
+
+.logo__text {
+  font-size: 22px;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  color: var(--green-200);
+}
+
+.nav {
+  display: flex;
+  gap: 40px;
+}
+
+.nav__link {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  color: var(--green-200);
+  transition: 200ms;
+}
+
+.nav__link:hover {
+  color: var(--green-100);
+  transition: 200ms;
+}
+
+.auth {
+  display: flex;
+  gap: 10px;
+}
+
+.auth__button {
+  width: 95px;
+  padding: 10px 0;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  background-color: transparent;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.login-button {
+  border: 2px solid var(--gray-200);
+  transition: 200ms;
+}
+
+.login-button:hover {
+  background-color: var(--gray-200);;
+  transition: 200ms;
+}
+
+.signup-button {
+  color: var(--white);
+  background-color: var(--green-100);
+  transition: 200ms;
+}
+
+.signup-button:hover {
+  background-color: var(--green-200);
+  transition: 200ms;
+}
